@@ -1,0 +1,30 @@
+body {
+  overflow-x: hidden;
+}
+
+.bg-gradient {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(106, 14, 14, 1) 27%,
+    rgba(102, 0, 0, 1) 100%
+  );
+}
+
+img {
+  max-height: 80vh;
+}
+
+main {
+  min-height: 85vh;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  height: 10vh;
+  padding-top: 5rem;
+}

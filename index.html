@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- GIT 417: Module 2
+    Author: David Cordova
+    Date: 1/24/2020
+    -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -14,11 +18,14 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <!-- Import Custom Typeface -->
+    <link rel="stylesheet" href="https://use.typekit.net/lwu1gud.css">
+    <!-- Import Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <!-- Heading -->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header> <!-- Navbar heading-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-gradient">
         <div class="container">
           <a class="navbar-brand" href="index.html">Guitar Fury</a>
           <button
@@ -48,34 +55,63 @@
         </div>
       </nav>
     </header>
-    <!-- Main -->
-    <main class="vh-100 mt-4">
-      <!-- Jumbotron Section -->
-      <section class="my-3">
-        <section>
-          <div class="row justify-content-center">
-            <div class="col-md-8">
-              <div class="jumbotron text-center">
-                <h1 class="display-4">Guitar Fury</h1>
-                <p class="lead">
-                  Welcome to Guitar Fury. Enjoy the phenominal photos and learn
-                  about both electric and acoustic guitars.
-                </p>
-                <hr class="my-4" />
-                <p>
-                  Check out my own personal collection of electric and acoustic
-                  guitars.
-                </p>
-                <a class="btn btn-primary btn-md" href="third.html" role="button"
-                  >Personal Stash</a
-                >
-              </div>
+    <main class="pt-4"> 
+      <section class="my-3"> <!-- Jumbotron Section -->
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="jumbotron text-center">
+              <h1 class="display-4">Guitar Fury</h1>
+              <p class="lead">
+                Welcome to Guitar Fury. Enjoy the phenominal photos and learn
+                about both electric and acoustic guitars.
+              </p>
+              <hr class="my-4" />
+              <p>
+                Check out my own personal collection of electric and acoustic
+                guitars.
+              </p>
+              <a class="btn btn-secondary btn-md" href="third.html" role="button"
+                >Personal Stash</a
+              >
             </div>
           </div>
         </div>
-      </section>
-      <!-- End of Jumbotron Section -->
-    </main>
+    </section> <!-- End of Jumbotron Section -->
+    
+    <section class="container"> <!-- Card Section -->
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+      </div>
+      
     <!-- Footer -->
     <footer class="text-center">
       <div class="container">
