@@ -48,7 +48,9 @@ var listenTo = function(element, action, func) {
 
 // Helper function for finding elements by element selector
 var findElement = function(selector) {
-  var el = document.querySelector(selector);
+  if (selector) {
+    var el = document.querySelector(selector);
+  }
 
   return el;
 };
